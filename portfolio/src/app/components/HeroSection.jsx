@@ -31,7 +31,7 @@ export const HeroSection = () => {
 
           </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-            most pretty software engineer in the world.
+            The most pretty software engineer in the world.
           </p>
           <div>
             <button className='px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
