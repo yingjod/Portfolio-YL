@@ -1,7 +1,8 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import { ProjectCard } from './ProjectCard'
 import ProjectTag from './ProjectTag'
+import { motion, useInView } from 'framer-motion'
 
 const projectsData = [
   {
@@ -18,14 +19,14 @@ const projectsData = [
     title: 'The Tasty Palette',
     description: 'In developing The Tasty Palette, our team adeptly utilized a full-stack approach, employing React.js and Bootstrap for frontend design and Node.js, Express.js, and MongoDB for a robust backend.',
     image: '/images/projects/P3.png',
-    tag: ['All', 'Mobile'],
+    tag: ['All', 'Mobile', 'Web'],
     gitUrl: '/',
     previewUrl: '/'
   },
   {
     id: 3,
-    title: 'Family movie night',
-    description: 'In creating Family Movie Night, Anne-Laure and I worked together to build a React-based website',
+    title: 'Family Movie Night',
+    description: 'Anne-Laure and I collaborated, a React-based website. We used SCSS for styling and Axios for API integration. With React-Bootstrap components, we added sorting, searching, and responsive design features.',
     image: '/images/projects/P2.png',
     tag: ['All', 'Web'],
     gitUrl: '/',
@@ -34,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: 'Hungry BAO!',
-    description: 'I used HTML, CSS, and JavaScript to construct a simple yet captivating grid-based game',
+    description: 'I employed HTML, CSS, and JavaScript to develop a grid-based game, focusing on meticulous event listener implementation and thoughtful code organisation.',
     image: '/images/projects/P1.png',
     tag: ['All', 'Web'],
     gitUrl: '/',
@@ -44,18 +45,27 @@ const projectsData = [
 
 export const ProjectsSection = () => {
   const [tag, setTag] = useState('All')
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true })
 
   const handleTagChange = (newTag) => {
     setTag(newTag)
   }
 
-  const filteredProjects= projectsData.filter((project)=>
+  const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
   )
+
+  const cardVariants = {
+    initial: { y: 50, opacity: 0 },
+    animate: { y: 0, opacity: 1 },
+
+  }
+
   return (
-    <>
-      <h2 className='text-center text-4xl font-bold text-white mt-4 mb-10'>
-        My Projects
+    <section id='projects' ref={ref} className='mt-40'>
+      <h2 className='text-center text-4xl font-bold text-[#FC6F2F] mt-20 mb-10 '>
+        Projects
       </h2>
       <div className='text-white flex flex-row justify-center items-center gap-2 py-6 '>
         <ProjectTag
@@ -68,24 +78,32 @@ export const ProjectsSection = () => {
           name='Web'
           isSelected={tag === 'Web'}
         />
-         <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name='Mobile'
           isSelected={tag === 'Mobile'}
         />
       </div>
-      <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
-        {filteredProjects.map((project) => (
-          <ProjectCard
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            imgUrl={project.image}
-            gitUrl={project.gitUrl}
-            previewUrl={project.previewUrl}
-          />
+      <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+        {filteredProjects.map((project, index) => (
+          <motion.li
+            key={index}
+            variants={cardVariants}
+            initial='initial'
+            animate={isInView ? 'animate' : 'initial'}
+            transition={{ duration: 0.3, delay: index * 0.4 }}
+          >
+            <ProjectCard
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              imgUrl={project.image}
+              gitUrl={project.gitUrl}
+              previewUrl={project.previewUrl}
+            />
+          </motion.li>
         ))}
-      </div>
-    </>
+      </ul>
+    </section>
   )
 }

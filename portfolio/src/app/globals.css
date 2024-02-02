@@ -31,3 +31,29 @@ body {
     text-wrap: balance;
   }
 }
+
+@media (max-width: 640px) {
+  .quotation-marks {
+    display: none;
+  }
+  .skills {
+    font-size:13px;
+  }
+  .abouttext{
+    margin: 30px;
+    padding-bottom: 30px;
+    font-size:25px;
+  }
+  .gap-8.sm\:py-16.xl\:px-16 {
+    margin-left:0px; /* 在小螢幕上設定左邊距 */
+    margin-right: 0px; /* 在小螢幕上設定右邊距 */
+  }
+  .navlogo {
+    height:60px; /* 在小螢幕上設定左邊距 */
+    width: 35px;
+  }
+}
+
+.container {
+  padding: 25px; /* 或者使用 margin: 20px; */
+}

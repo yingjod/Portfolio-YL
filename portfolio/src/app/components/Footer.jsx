@@ -1,17 +1,12 @@
 import React from 'react'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <footer className='footer border border-t-[#33353F] border-l-transparent  border-r-transparent text-white'>
-      <div className='container p-12 flex justify-between'>
-        <span>
-          LOGO
-        </span>
-        <p className='text-slate-600'>
-          All rights reserved.
+    <footer className='footer border z-10 border-t-[#fbfbfb] border-l-transparent  border-r-transparent text-white'>
+        <p className='text-white-600 text-center p-12'>
+          © Ying Li {currentYear}
         </p>
-      </div>
-
     </footer>
   )
 }
