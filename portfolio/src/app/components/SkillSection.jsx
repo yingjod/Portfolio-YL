@@ -85,7 +85,7 @@ const SkillSection = () => {
           </div>
           <div className='list-disc pl-2 text-[#FC6F2F] text-2xl text-center flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
-            <p className='font-bold sm:text-xl skills'>Shih Chien University,Bachelor's degree, Business Administration and Management</p>
+            <p className='font-bold sm:text-xl skills'>Shih Chien University,Bachelor&apos;s degree, Business Administration and Management</p>
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
           </div >
         </>

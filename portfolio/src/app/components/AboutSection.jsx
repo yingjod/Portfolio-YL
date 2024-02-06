@@ -21,7 +21,7 @@ export const AboutSection = () => {
             </div>
             <h2 className='text-4xl font-bold text-[#FC6F2F] mb-4 mt-5 text-center '>About me</h2>
             <p className='text-base md:text-lg text-center text-bold'>
-              I'm a dynamic professional with extensive experience in operation management, accounting, and store management across diverse industries. <br></br>
+              I&apos;m a dynamic professional with extensive experience in operation management, accounting, and store management across diverse industries. <br></br>
               As a director of a trading business, I excel in fostering teamwork, implementing efficient processes, and driving organizational success.<br></br>
               Recently completing a software engineering course at GA, I am eager to pivot into a software engineering career.<br></br>
               I aim to fuse my management background with new challenges, leveraging my adaptability, passion for innovation, and knack for process enhancement to contribute fresh perspectives and solutions in the tech realm.<br></br>
