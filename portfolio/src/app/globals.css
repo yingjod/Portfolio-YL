@@ -52,8 +52,39 @@ body {
     height:60px; /* 在小螢幕上設定左邊距 */
     width: 35px;
   }
+  #about{
+    padding-top: 80px;
+    padding-bottom: 80px
+  }
+  #projects{
+    padding-top: 80px;
+    padding-bottom: 80px
+  }
+  .contact{
+    padding-top: 80px;
+    padding-bottom: 80px
+  }
+  .skillimg{
+    margin-top: 50px;
+  }
 }
 
 .container {
   padding: 25px; /* 或者使用 margin: 20px; */
+}
+
+#about{
+  padding-top: 80px;
+  padding-bottom: 80px
+}
+#projects{
+  padding-top: 80px;
+  padding-bottom: 80px
+}
+.contact{
+  padding-top: 80px;
+  padding-bottom: 80px
+}
+.skillimg{
+  margin-top: 50px;
 }

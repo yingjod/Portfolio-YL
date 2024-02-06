@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ying Li",
-  logo: "/images/logo.png",
 };
 
 export default function RootLayout({ children }) {
@@ -14,9 +13,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>{metadata.title}</title>
-        <link rel="icon" href={metadata.logo} />
+        <link rel="icon" href="icon.png" sizes="any" /> 
       </Head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         {children}
       </body>
     </html>

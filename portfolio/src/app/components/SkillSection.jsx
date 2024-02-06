@@ -9,7 +9,6 @@ import reactIcon from '../../../public/react.svg'
 import bootstrapIcon from '../../../public/bootstrap.png'
 import sassIcon from '../../../public/sass.svg'
 import nextjsIcon from '../../../public/nextjs.svg'
-import nodeIcon from '../../../public/node.png'
 import expressIcon from '../../../public/express.png'
 import pythonIcon from '../../../public/python.svg'
 import djangoIcon from '../../../public/django.svg'
@@ -28,15 +27,13 @@ const SkillSection = () => {
         <>
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
-            {/* <h1 className='list-disc pl-2 font-bold text-red-500 text-xl'>
-              Frontend - </h1> */}
-            <Image className='ml-6 mr-6' src={htmlIcon} alt='html5icon' weight={50} height={50} />
-            <Image className='mr-6' src={cssIcon} alt='cssicon' weight={50} height={50} />
-            <Image className='mr-6' src={jsIcon} alt='jsicon' weight={50} height={50} />
-            <Image className='mr-6' src={reactIcon} alt='reacticon' weight={50} height={50} />
-            <Image className='mr-6' src={bootstrapIcon} alt='bootstrapicon' weight={50} height={50} />
-            <Image className='mr-6' src={sassIcon} alt='sassicon' weight={50} height={50} />
-            <Image className='mr-6' src={nextjsIcon} alt='nextjsicon' weight={50} height={50} />
+            <Image className='ml-6 mr-6 skillimg' src={htmlIcon} alt='html5icon' weight={50} height={50} />
+            <Image className='mr-6 skillimg' src={cssIcon} alt='cssicon' weight={50} height={50} />
+            <Image className='mr-6 skillimg' src={jsIcon} alt='jsicon' weight={50} height={50} />
+            <Image className='mr-6 skillimg' src={reactIcon} alt='reacticon' weight={50} height={50} />
+            <Image className='mr-6 skillimg' src={bootstrapIcon} alt='bootstrapicon' weight={50} height={50} />
+            <Image className='mr-6 skillimg' src={sassIcon} alt='sassicon' weight={50} height={50} />
+            <Image className='mr-6 skillimg' src={nextjsIcon} alt='nextjsicon' weight={50} height={50} />
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
           </div><br></br>
 
@@ -45,34 +42,27 @@ const SkillSection = () => {
           </div>
 
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
-            {/* <h1 className='list-disc pl-2 font-bold text-red-500 text-xl'>Backend - </h1> */}
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
 
-            <Image className='ml-5 mr-5' src={expressIcon} alt='expressicon' weight={50} height={50} />
-            <Image className='mr-5' src={pythonIcon} alt='pythonicon' weight={50} height={50} />
-            <Image className='mr-5' src={djangoIcon} alt='djangoicon' weight={50} height={50} />
+            <Image className='ml-5 mr-5 skillimg' src={expressIcon} alt='expressicon' weight={50} height={50} />
+            <Image className='mr-5 skillimg' src={pythonIcon} alt='pythonicon' weight={50} height={50} />
+            <Image className='mr-5 skillimg' src={djangoIcon} alt='djangoicon' weight={50} height={50} />
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
-            <Image className='ml-5 mr-5' src={mongodbIcon} alt='mongodbicon' weight={50} height={50} />
-            <Image className='mr-5' src={postgresqlIcon} alt='postgresqlicon' weight={50} height={50} />
+            <Image className='ml-5 mr-5 skillimg' src={mongodbIcon} alt='mongodbicon' weight={50} height={50} />
+            <Image className='mr-5 skillimg' src={postgresqlIcon} alt='postgresqlicon' weight={50} height={50} />
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
           </div><br></br>
 
-          {/* <div className='flex flex-row items-center mt-5 justify-center'>
-            <h1 className='list-disc pl-2 font-bold text-red-500 text-xl'>Databases - </h1>
-            <Image className='ml-5 mr-5' src={mongodbIcon} alt='mongodbicon' weight={50} height={50} />
-            <Image className='mr-5' src={postgresqlIcon} alt='postgresqlicon' weight={50} height={50} />
-          </div><br></br> */}
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
             <p className='list-disc pl-2 text-white text-8xl xl:hidden md:hidden'> - </p>
           </div>
 
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
-            {/* <h1 className='list-disc pl-2 font-bold text-red-500 text-xl' >Tools - </h1> */}
-            <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
-            <Image className='ml-5 mr-5' src={npmIcon} alt='npmicon' weight={50} height={50} />
-            <Image className='mr-5' src={herokuIcon} alt='herokuicon' weight={50} height={50} />
-            <Image className='mr-5' src={githubIcon} alt='githubicon' weight={50} height={50} />
+            <p className='list-disc pl-2 text-white text-8xl quotation-marks skillimg'> &lt; </p>
+            <Image className='ml-5 mr-5 skillimg' src={npmIcon} alt='npmicon' weight={50} height={50} />
+            <Image className='mr-5 skillimg' src={herokuIcon} alt='herokuicon' weight={50} height={50} />
+            <Image className='mr-5 skillimg' src={githubIcon} alt='githubicon' weight={50} height={50} />
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
           </div>
 
@@ -87,7 +77,7 @@ const SkillSection = () => {
         <>
           <div className='list-disc pl-2 text-[#FC6F2F] text-2xl text-center flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
-            <p className='font-bold skills'>General Assembly,Software Engineering Immersive</p>
+            <p className='font-bold sm:text-xl skills'>General Assembly,Software Engineering Immersive</p>
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
           </div>
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>

@@ -11,17 +11,17 @@ const projectsData = [
     description: 'The Dive-Log website serves as a platform for divers to log their dives. For the frontend design, I utilized React.js and Bootstrap, while the backend setup was established using Python Django.',
     image: '/images/projects/P4.png',
     tag: ['All', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/'
+    gitUrl: 'https://github.com/yingjod/Dive-log',
+    previewUrl: 'https://dive-log-tw-9e1427271c2b.herokuapp.com/'
   },
   {
     id: 2,
     title: 'The Tasty Palette',
     description: 'In developing The Tasty Palette, our team adeptly utilized a full-stack approach, employing React.js and Bootstrap for frontend design and Node.js, Express.js, and MongoDB for a robust backend.',
     image: '/images/projects/P3.png',
-    tag: ['All', 'Mobile', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/'
+    tag: ['All', 'Web'],
+    gitUrl: 'https://github.com/yingjod/The-Tasty-Palette',
+    previewUrl: 'https://tasty-palette-09debfc2279e.herokuapp.com/'
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: 'Anne-Laure and I collaborated, a React-based website. We used SCSS for styling and Axios for API integration. With React-Bootstrap components, we added sorting, searching, and responsive design features.',
     image: '/images/projects/P2.png',
     tag: ['All', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/'
+    gitUrl: 'https://github.com/yingjod/Family-Movie-Night',
+    previewUrl: 'https://familymovienight.netlify.app/'
   },
   {
     id: 4,
@@ -38,8 +38,8 @@ const projectsData = [
     description: 'I employed HTML, CSS, and JavaScript to develop a grid-based game, focusing on meticulous event listener implementation and thoughtful code organisation.',
     image: '/images/projects/P1.png',
     tag: ['All', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/'
+    gitUrl: 'https://github.com/yingjod/Hungry-BAO-',
+    previewUrl: 'https://yingjod.github.io/Hungry-BAO-/'
   },
 ]
 

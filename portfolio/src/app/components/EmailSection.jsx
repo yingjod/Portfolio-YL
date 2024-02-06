@@ -37,12 +37,12 @@ const EmailSection = () => {
 
   return (
     <section id='contact' className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
-      <div className=''>
+      <div className='contact'>
         <h5 className='text-xl font-bold text-[#FC6F2F] my-2'>Let's Connect</h5>
         <p className='text-[#808080] mb-4 max-w-md font-bold'>
           {''}
           I am actively seeking new opportunities and welcome any inquiries or messages.
-          Whether you have a question or simply want to say hello, feel free to reach out to me. 
+          Whether you have a question or simply want to say hello, feel free to reach out to me.
           I am committed to responding promptly to all messages received.
         </p>
         <div className='socials flex flex-row gap-2'>
@@ -101,13 +101,13 @@ const EmailSection = () => {
           >
             Send Message
           </button>
-        {
-          emailSubmitted&&(
-            <p className='text-red-500 text-sm mt-2'>
-              Email sent successfully!
-            </p>
-          )
-        }
+          {
+            emailSubmitted && (
+              <p className='text-red-500 text-sm mt-2'>
+                Email sent successfully!
+              </p>
+            )
+          }
         </form>
       </div>
     </section>
