@@ -105,7 +105,7 @@ const SkillSection = () => {
 
   return (
 
-    <div className='flex flex-col mt-20 '>
+    <div className='flex flex-col mt-20 mb-20 '>
       <div className='flex flex-row justify-center text-2xl skills'>
         <TabButton
           selectTab={() => handleTabChange('Technologies & Skills')}

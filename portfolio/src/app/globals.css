@@ -71,6 +71,18 @@ body {
   .educationmark{
     display: none;
   }
+  .interest{
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  .interestcon{
+    flex-direction: column;
+    align-items: center;
+  }
+  
 }
 
 .container {
