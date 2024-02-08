@@ -27,7 +27,7 @@ export const InterestSection = () => {
             <p className='text-base md:text-lg text-center text-bold'>
               I&apos;m passionate about <b>scuba diving</b> and <b>hiking</b>, finding solace in the depths of the ocean and the heights of mountain trails.
               Fascinated by human behavior, I delve into <b>psychology</b> and enjoy the exploration of the mind through <b>reading</b>. A connoisseur of <b>gourmet cuisine</b>,
-              I savor culinary experiences that tantalize the senses. With an <b>adventurous spirit</b>, I embrace new challenges and seek excitement in life's <b>adventures.</b><br></br>
+              I savor culinary experiences that tantalize the senses. With an <b>adventurous spirit</b>, I embrace new challenges and seek excitement in life&apos;s <b>adventures.</b><br></br>
             </p>
           </div>
         </div>
