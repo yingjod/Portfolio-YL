@@ -46,10 +46,10 @@ const EmailSection = () => {
           I am committed to responding promptly to all messages received.
         </p>
         <div className='socials flex flex-row gap-2'>
-          <Link href='https://github.com/yingjod'>
+          <Link href='https://github.com/yingjod' target="_blank">
             <Image className='w-10' src={GithubIcon} alt='Github Icon' />
           </Link>
-          <Link href='https://www.linkedin.com/in/ying-li-t/'>
+          <Link href='https://www.linkedin.com/in/ying-li-t/' target="_blank">
             <Image className='w-10' src={LinkedinIcon} alt='Linkedin Icon' />
           </Link>
         </div>

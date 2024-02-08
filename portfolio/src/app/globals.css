@@ -67,6 +67,10 @@ body {
   .skillimg{
     margin-top: 50px;
   }
+
+  .educationmark{
+    display: none;
+  }
 }
 
 .container {
@@ -86,5 +90,9 @@ body {
   padding-bottom: 80px
 }
 .skillimg{
+  margin-top: 50px;
+}
+
+.quotation-marks{
   margin-top: 50px;
 }

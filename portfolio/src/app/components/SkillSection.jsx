@@ -26,7 +26,7 @@ const SkillSection = () => {
       content: (
         <>
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
-            <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
+            <p className='list-disc pl-2 text-white text-8xl quotation-marks '> &lt; </p>
             <Image className='ml-6 mr-6 skillimg' src={htmlIcon} alt='html5icon' weight={50} height={50} />
             <Image className='mr-6 skillimg' src={cssIcon} alt='cssicon' weight={50} height={50} />
             <Image className='mr-6 skillimg' src={jsIcon} alt='jsicon' weight={50} height={50} />
@@ -76,17 +76,17 @@ const SkillSection = () => {
       content: (
         <>
           <div className='list-disc pl-2 text-[#FC6F2F] text-2xl text-center flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
-            <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
+            <p className='list-disc pl-2 text-white text-8xl educationmark'> &lt; </p>
             <p className='font-bold sm:text-xl skills'>General Assembly,Software Engineering Immersive</p>
-            <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
+            <p className='list-disc pl-2 text-white text-8xl educationmark'> &gt; </p>
           </div>
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
             <p className='list-disc pl-2 text-white text-8xl xl:hidden md:hidden'> - </p>
           </div>
           <div className='list-disc pl-2 text-[#FC6F2F] text-2xl text-center flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
-            <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &lt; </p>
+            <p className='list-disc pl-2 text-white text-8xl educationmark'> &lt; </p>
             <p className='font-bold sm:text-xl skills'>Shih Chien University,Bachelor&apos;s degree, Business Administration and Management</p>
-            <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
+            <p className='list-disc pl-2 text-white text-8xl educationmark'> &gt; </p>
           </div >
         </>
       )

@@ -35,7 +35,7 @@ export const HeroSection = () => {
             />
 
           </h1>
-          <p className='text-[#bfbfbf] text-base sm:text-lg mb-6 lg:text-l'>
+          <p className='text-[#989898] text-base sm:text-lg mb-6 lg:text-l'>
             A software engineer with Management and Accounting experience.
           </p>
         </motion.div>

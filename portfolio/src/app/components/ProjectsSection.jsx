@@ -19,7 +19,7 @@ const projectsData = [
     title: 'The Tasty Palette',
     description: 'In developing The Tasty Palette, our team adeptly utilized a full-stack approach, employing React.js and Bootstrap for frontend design and Node.js, Express.js, and MongoDB for a robust backend.',
     image: '/images/projects/P3.png',
-    tag: ['All', 'Web'],
+    tag: ['All', 'Web','Mobile'],
     gitUrl: 'https://github.com/yingjod/The-Tasty-Palette',
     previewUrl: 'https://tasty-palette-09debfc2279e.herokuapp.com/'
   },
