@@ -77,7 +77,8 @@ const SkillSection = () => {
         <>
           <div className='list-disc pl-2 text-[#FC6F2F] text-2xl text-center flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
             <p className='list-disc pl-2 text-white text-8xl educationmark'> &lt; </p>
-            <p className='font-bold sm:text-xl skills'>General Assembly,Software Engineering Immersive</p>
+            <p className='font-bold sm:text-xl skills'>Software Engineering Immersive, <br></br>General Assembly, <br></br>Oct 2023 - Jan 2024
+</p>
             <p className='list-disc pl-2 text-white text-8xl educationmark'> &gt; </p>
           </div>
           <div className='flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
@@ -85,7 +86,8 @@ const SkillSection = () => {
           </div>
           <div className='list-disc pl-2 text-[#FC6F2F] text-2xl text-center flex flex-row items-center mt-5 justify-center flex-wrap sm:flex-nowrap'>
             <p className='list-disc pl-2 text-white text-8xl educationmark'> &lt; </p>
-            <p className='font-bold sm:text-xl skills'>Shih Chien University,Bachelor&apos;s degree, Business Administration and Management</p>
+            <p className='font-bold sm:text-xl skills'>Bachelor&apos;s degree, <br></br>Business Administration and Management, <br></br>Shih Chien University, <br></br>Sep 2008 - Sep 2012
+</p>
             <p className='list-disc pl-2 text-white text-8xl educationmark'> &gt; </p>
           </div >
         </>

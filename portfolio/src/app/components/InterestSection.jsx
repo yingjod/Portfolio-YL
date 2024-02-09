@@ -23,7 +23,7 @@ export const InterestSection = () => {
       <div className='gap-8 items-center my-8 mx-4 xl:gap-16 sm:py-16 xl:px-16'>
         <div className='flex justify-between gap-8 items-center my-50 mx-20 xl:gap-18 sm:py-18 xl:px-18 abouttext'>
           <div>
-            <h2 className='text-4xl font-bold text-[#FC6F2F] mb-4 mt-5 text-center '>Interest</h2>
+            <h2 className='text-4xl font-bold text-[#FC6F2F] mb-4 mt-5 text-center '>Interests</h2>
             <p className='text-base md:text-lg text-center text-bold'>
               I&apos;m passionate about <b>scuba diving</b> and <b>hiking</b>, finding solace in the depths of the ocean and the heights of mountain trails.
               Fascinated by human behavior, I delve into <b>psychology</b> and enjoy the exploration of the mind through <b>reading</b>. A connoisseur of <b>gourmet cuisine</b>,
