@@ -17,6 +17,8 @@ import postgresqlIcon from '../../../public/postgresql.png'
 import npmIcon from '../../../public/npm.svg'
 import herokuIcon from '../../../public/heroku.svg'
 import githubIcon from '../../../public/github.svg'
+import nodejsIcon from '../../../public/nodejs.png'
+import vercelIcon from '../../../public/vercel.svg'
 
 const SkillSection = () => {
   const TAB_DATA = [
@@ -34,6 +36,7 @@ const SkillSection = () => {
             <Image className='mr-6 skillimg' src={bootstrapIcon} alt='bootstrapicon' weight={50} height={50} />
             <Image className='mr-6 skillimg' src={sassIcon} alt='sassicon' weight={50} height={50} />
             <Image className='mr-6 skillimg' src={nextjsIcon} alt='nextjsicon' weight={50} height={50} />
+            <Image className='mr-6 skillimg' src={nodejsIcon} alt='nodejsicon' weight={50} height={50} />
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
           </div><br></br>
 
@@ -63,6 +66,7 @@ const SkillSection = () => {
             <Image className='ml-5 mr-5 skillimg' src={npmIcon} alt='npmicon' weight={50} height={50} />
             <Image className='mr-5 skillimg' src={herokuIcon} alt='herokuicon' weight={50} height={50} />
             <Image className='mr-5 skillimg' src={githubIcon} alt='githubicon' weight={50} height={50} />
+            <Image className='mr-5 skillimg' src={vercelIcon} alt='vercelicon' weight={20} height={20} />
             <p className='list-disc pl-2 text-white text-8xl quotation-marks'> &gt; </p>
           </div>
 
